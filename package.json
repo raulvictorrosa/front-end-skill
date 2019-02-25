@@ -1,5 +1,5 @@
 {
-  "name": "new",
+  "name": "frond-end-skill",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -7,8 +7,7 @@
   "dependencies": {
     "react": "16.8.3",
     "react-dom": "16.8.3",
-    "react-scripts": "2.0.3",
-    "reactstrap": "7.1.0"
+    "react-scripts": "2.0.3"
   },
   "devDependencies": {},
   "scripts": {
