@@ -1,4 +1,6 @@
 import React from "react";
+import Card from "./Card";
+import Cards from "./Cards";
 import Chips from "./Chips";
 
 const App = () => {
@@ -8,6 +10,9 @@ const App = () => {
         <div className="row ">
           <div className="col">
             <Chips />
+          </div>
+          <div className="col" style={{ marginTop: "30px" }}>
+            <Cards />
           </div>
         </div>
       </div>
