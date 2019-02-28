@@ -87,9 +87,6 @@ class Balloon extends Component {
           onMouseMove={this.handleMouseMove}
         >
           {referral}
-          <p>
-            The current mouse position is ({mouse.x}, {mouse.y})
-          </p>
         </span>
       </span>
     );
