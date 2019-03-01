@@ -22,7 +22,6 @@
   }
 
   &-media {
-    // height: 140px;
     height: 0;
     padding-top: 56.25%;
     display: block;
@@ -37,12 +36,6 @@
     background-color: $white;
     width: 100%;
   }
-
-  // &-content {
-  //   &:hover {
-  //     filter: opacity(70%);
-  //   }
-  // }
 
   &-body {
     padding: 16px;
@@ -65,7 +58,6 @@
       font-size: 0.875rem;
       font-weight: 400;
       line-height: 1.5;
-      // letter-spacing: 0.01071em;
     }
   }
 
