@@ -75,7 +75,6 @@ class Balloon extends Component {
   }
 
   render() {
-    const { mouse } = this.state;
     const { referral } = this.props;
 
     return (

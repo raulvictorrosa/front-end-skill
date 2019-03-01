@@ -1,7 +1,7 @@
 import React from "react";
 
 function Card(props) {
-  const { className, children, title, teste } = props;
+  const { className, children, title } = props;
   let { image } = props;
 
   const cardId = title ? title.replace(/\W/g, "-").toLowerCase() : "";
