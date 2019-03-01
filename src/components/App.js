@@ -3,6 +3,7 @@ import Balloon from "./Balloon";
 import Card from "./Card";
 import Cards from "./Cards";
 import Chips from "./Chips";
+import Dropdown from "./Dropdown";
 
 const App = () => {
   return (
@@ -30,6 +31,20 @@ const App = () => {
             >
               Balloon text message
             </Balloon>
+          </div>
+          <div
+            className="col"
+            style={{ marginTop: "30px", marginBottom: "30px" }}
+          >
+            <h3>Dropdown</h3>
+            <Dropdown
+              options={[
+                { label: "one", value: 1 },
+                { label: "two", value: 2 },
+                { label: "three", value: 3 }
+              ]}
+              label={"label"}
+            />
           </div>
         </div>
       </div>
